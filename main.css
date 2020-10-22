@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px hsl(190, 54%, 42%);
+  opacity: 0.9;
+  background-color: hsl(0, 0%, 99%);
+}
+.navbar .nav-item {
+  font-size: 1.2rem;
+  padding-bottom: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+#section1 {
+  /* position: relative; */
+  background-image: url('./img/mountains.jpg');
+  min-height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section1 .primary-overlay {
+  background-color: hsl(190, 54%, 42%, 0.8);
+
+  width: 100%;
+  height: 100%;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.card {
+  margin-left: 30px;
+}
+
+section {
+  background-color: black;
+}
+.display-2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+  margin: 0 auto;
+  background-color: hsl(190, 54%, 42%, 0.8);
+}
+
+.img-fluid {
+  position: relative;
+  flex-direction: column;
+  align-content: space-between;
+  margin-bottom: 50px;
+}
+
+.rounded-circle {
+  width: 50px;
+  height: 50px;
+  /* position: absolute; */
+  margin: 0 auto;
+}
+
+.card-text {
+  margin: 5px;
+  padding: 30px;
+}
+
+
+
+.footer-icons{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+@media screen and(min-width:534) and (max-width: 768px) {
+  .card-desk {
+    flex-direction: space-between;
+  }
+}
